@@ -1,0 +1,413 @@
+{
+    "menu": [
+        {
+            "Entrantes": [{
+                "title": "Tabla Jamón y Queso",
+                "def": "Por persona",
+                "alergen": ["lacteo"],
+                "price": "3.50"
+            },{
+                "title": "Tabla de quesos",
+                "alergen": ["lacteo"],
+                "price": "7.00"
+            },{
+                "title": "Boquerones en vinagre",
+                "alergen": ["pescado"],
+                "price": "6.00"
+            },{
+                "title": "Ensaladilla rusa",
+                "alergen": ["lacteo"],
+                "price": "5.00"
+            },{
+                "title": "Esgarraet",
+                "alergen": ["pescado"],
+                "price": "5.50"
+            },{
+                "title": "Patatas bravas",
+                "alergen": ["huevo", "soja"],
+                "price": "5.00"
+            },{
+                "title": "Lágrimas de pollo con mostaza",
+                "alergen": ["gluten"],
+                "price": "6.00"
+            },{
+                "title": "Queso frito con mermelada de arándanos",
+                "alergen": ["lacteo", "gluten"],
+                "price": "6.00"
+            },{
+                "title": "Calamares",
+                "alergen": ["pescado", "gluten"],
+                "price": "7.00"
+            },{
+                "title": "Puntilla",
+                "alergen": ["pescado", "gluten"],
+                "price": "6.00"
+            },{
+                "title": "Sepia",
+                "alergen": ["pescado"],
+                "price": "7.50"
+            },{
+                "title": "Pulpo a la gallega",
+                "alergen": ["pescado"],
+                "price": "8.00"
+            },{
+                "title": "Clóchinas",
+                "alergen": ["pescado", "molusco"],
+                "price": "5.50"
+            },{
+                "title": "Gambas al ajillo",
+                "alergen": ["pescado", "crustaceos"],
+                "price": "7.00"
+            },{
+                "title": "Rabo de cerdo",
+                "alergen": ["lacteo", "soja"],
+                "price": "5.50"
+            },{
+                "title": "Oreja a la plancha",
+                "alergen": ["lacteo"],
+                "price": "5.50"
+            },{
+                "title": "Croquetas",
+                "def": "4 unidades",
+                "alergen": ["gluten", "pescado"],
+                "price": "4.00"
+            },{
+                "title": "Lomo de Orza",
+                "price": "4.50"
+            }
+            ]
+        },
+        {
+            "Para los carnivoros": [{
+                    "title": "Chuletas de cordero",
+                    "alergen": [],
+                    "price": "13.00"
+                },{
+                    "title": "Entrecot de ternera",
+                    "alergen": [],
+                    "image": "entrecotTernera.jpg",
+                    "price": "14.00"
+                },{
+                    "title": "Chuletón de buey 750gr",
+                    "image": "chuletonBuey.jpg",
+                    "alergen": [],
+                    "price": "18.00"
+                },{
+                    "title": "Pinchos morunos",
+                    "alergen": ["soja", "lacteo"],
+                    "def": "Unidad",
+                    "price": "2.50"
+                },{
+                    "title": "Ensalada Bonillera",
+                    "def": "Embutido y panceta trinchada",
+                    "alergen": [],
+                    "price": "6.50"
+                },{
+                    "title": "Fuente Barbacoa Calero",
+                    "alergen": [],
+                    "items": [
+                        "· 2 Chuletas de cordero",
+                        "· 3 Piezas de embutido por persona"
+                    ],
+                    "price": "11.50"
+                },{
+                    "promo": true,
+                    "title": "Especial para cuatro personas",
+                    "alergen": ["soja", "lacteo"],
+                    "items": [
+                        "· Chuletón de buey",
+                        "· Entrecot",
+                        "· 8 Chuletas de cordero",
+                        "· 4 Pinchos"
+                    ],
+                    "price": "62.00"
+                },{
+                    "extra": "Todas las carnes se sirven con patatas a lo pobre y pimientos"
+                },{
+                    "extra": "Las salsas (Roquefort, Pimienta y al ajillo) llevan un incremento de 1.50 € el plato",
+                    "alergen": ["lacteo"]
+                }
+            ]
+        },
+        {
+            "bocadillos": [{
+                "title": "Chivito",
+                "alergen": ["gluten", "huevo", "lacteo", "soja"],
+                "price": "6.00"
+            },{
+                "title": "Brascada",
+                "alergen": ["gluten"],
+                "price": "5.50"
+            },{
+                "title": "Manchego",
+                "def": "Güeñas, patatas y alioli",
+                "alergen": ["gluten", "huevo"],
+                "price": "5.50"
+            },{
+                "title": "Almussafes",
+                "alergen": ["gluten", "lacteo"],
+                "price": "4.50"
+            },{
+                "title": "Huertano",
+                "def": "Atún, tomate, lechuga, huevo, espárragos y mahonesa",
+                "alergen": ["gluten", "lacteo", "huevo"],
+                "price": "5.50"
+            },{
+                "title": "Mir",
+                "def": "Pechuga, tomate, queso y mahonesa",
+                "alergen": [],
+                "price": "5.50"
+            }
+            ]
+        },
+        {
+            "Hamburguesas a la brasa": [{
+                "subtitle": "Elegir el tipo de carne ternera o angus"
+            },{
+                "title": "Heisenberg",
+                "def": "Carne, Bacon, queso cheddar y salsa barbacoa",
+                "image": "heisengbergAngus.jpg",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "8.00 / 11.00"
+            },{
+                "title": "Ruud Güilt",
+                "def": "Carne, Bacon, queso cabra y cebolla caramelizada",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "9.00 / 12.00"
+            },{
+                "title": "Zalazar",
+                "def": "Carne, queso, tomate natural y huevo frito",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "8.00 / 11.00"
+            },{
+                "title": "Veggie",
+                "def": "Hamburguesa de zanahoria y quinoa, queso cheddar, cebolla, lechuga, tomate",
+                "alergen": ["gluten"],
+                "price": "9.00"
+            },{
+                "extra": "Haz doble de carne tu hamburguesa: Ternera 3.00 €/ Angus 4.50 €"
+            },{
+                "extra": "Todas las hamburguesas se sirven con patatas y salsa"
+            }
+            ]
+        },
+        {
+            "pescados": [{
+                    "title": "Emperador",
+                    "alergen": ["pescado"],
+                    "price": "9.50"
+                },{
+                    "title": "Sepionet",
+                    "alergen": ["pescado"],
+                    "price": "9.00"
+                },{
+                    "title": "Parrillada marisco",
+                    "def": "2 personas",
+                    "price": "28.00",
+                    "alergen": ["pescado", "molusco", "crustaceos"],
+                    "items": [
+                        "· Sepionet",
+                        "· Emperador",
+                        "· Calamar plancha",
+                        "· Gambas plancha",
+                        "· Clochinas"
+                    ]
+                }
+            ]
+        },
+        {
+            "vinos tintos": [
+                {"D.O. RIBERA DEL DUERO" : [{
+                        "title": "Conde de San Cristóbal Crianza",
+                        "alergen": ["alcohol"],
+                        "def": "Vino de autor",
+                        "price": "19.50"
+                    },{
+                        "title": "Castillo de Aza",
+                        "alergen": ["alcohol"],
+                        "def": "Roble",
+                        "price": "10.50"
+                    },{
+                        "title": "Finca Engalia",
+                        "alergen": ["alcohol"],
+                        "def": "Joven",
+                        "price": "10.50"
+                    },{
+                        "title": "Legarias",
+                        "alergen": ["alcohol"],
+                        "def": "Roble",
+                        "price": "13.50"
+                    }]
+                },
+                {"D.O. RIOJA" : [{
+                        "title": "Arrios",
+                        "alergen": ["alcohol"],
+                        "def": "Joven",
+                        "price": "9.50"
+                    },{
+                        "title": "Coto Mayor",
+                        "alergen": ["alcohol"],
+                        "def": "Crianza",
+                        "price": "12.50"
+                    },{
+                        "title": "Viña Pomal",
+                        "alergen": ["alcohol"],
+                        "def": "Crianza",
+                        "price": "14.50"
+                    }]
+                },
+                {"D.O. UTIEL-REQUENA" : [{
+                        "title": "Casagrande",
+                        "def": "Vino de autor",
+                        "alergen": ["alcohol"],
+                        "price": "11.00"
+                    },{
+                        "title": "Señorío de Mestalla",
+                        "alergen": ["alcohol"],
+                        "def": "Crianza",
+                        "price": "10.50"
+                    },{
+                        "title": "Señorío de Mestalla",
+                        "alergen": ["alcohol"],
+                        "def": "Roble",
+                        "price": "8.00"
+                    },{
+                        "title": "Hoya de Cádenas",
+                        "alergen": ["alcohol"],
+                        "def": "Shiraz",
+                        "price": "10.50"
+                    }]
+                }
+            ]
+        },
+        {
+            "vinos blancos": [
+                {"D.O. VALENCIA" : [{
+                        "title": "Fustanova Blanco",
+                        "alergen": ["alcohol"],
+                        "price": "11.00"
+                    }]
+                },
+                {"D.O. UTIEL-REQUENA" : [{
+                        "title": "Hoya de Cadenas Blanco",
+                        "alergen": ["alcohol"],
+                        "price": "9.50"
+                    },{
+                        "title": "Señorío de Mestalla Blanco",
+                        "alergen": ["alcohol"],
+                        "price": "7.50"
+                    }]
+                },
+                {"D.O. RUEDA" : [{
+                        "title": "Analivia Verdejo",
+                        "alergen": ["alcohol"],
+                        "price": "9.50"
+                    },{
+                        "title": "Solar de la Vega Verdejo",
+                        "alergen": ["alcohol"],
+                        "price": "7.50"
+                    }]
+                }
+            ]
+        },
+        {
+            "vinos rosados": [
+                {"D.O. UTIEL-REQUENA" : [{
+                        "title": "Hoya de Cadenas Rosado",
+                        "alergen": ["alcohol"],
+                        "price": "9.50"
+                    }]
+                },
+                {"D.O. NAVARRA" : [{
+                        "title": "Viña Campus Rosado",
+                        "alergen": ["alcohol"],
+                        "price": "8.50"
+                    }]
+                }
+            ]
+        },
+        {
+            "Los postres de la jefa": [
+                {"Caseros" : [{
+                        "title": "Flan de huevo o café",
+                        "price": "3.00"
+                    },{
+                        "title": "Natillas",
+                        "price": "3.00"
+                    },{
+                        "title": "Mousse de chocolate o limón",
+                        "price": "3.00"
+                    }]
+                },
+                {"Tarrinas y copas" : [{
+                        "title": "Copa Le Tentazione Panna e Cioccolato",
+                        "price": "4.00"
+                    },{
+                        "title": "Copa Le Tentazione Caffè",
+                        "price": "4.00"
+                    },{
+                        "title": "Copa Le Tentazione Tiramisú",
+                        "price": "4.00"
+                    },{
+                        "title": "Crema Catalana",
+                        "price": "4.50"
+                    },{
+                        "title": "Tarrina Suprema de Turrón",
+                        "price": "3.00"
+                    },{
+                        "title": "Crocanti de caramelo",
+                        "price": "2.50"
+                    },{
+                        "title": "Tarta de whisky",
+                        "price": "4.50"
+                    },{
+                        "title": "Tarta Carolina",
+                        "price": "2.50"
+                    },{
+                        "title": "Bomboncitos chocolate y nata",
+                        "def": "4 unidades",
+                        "price": "2.50"
+                        },{
+                        "title": "Mini Trufas Heladas ",
+                        "def": "4 unidades",
+                        "price": "4.00"
+                    }]
+                },
+                {"Combo helado 4 personas" : [{
+                        "title": "Tarta de whisky, tarta carolina, bomboncitos y mini trufas",
+                        "promo": true,
+                        "price": "10.00"
+                    }]
+                },
+                {"Helados" : [{
+                        "title": "Mascarpone con Arándanos",
+                        "price": "2.00"
+                    },{
+                        "title": "Cono Extreme Gold Chocolate Absoluto",
+                        "price": "2.00"
+                    },{
+                        "title": "Almendrado Vainilla",
+                        "price": "2.00"
+                    },{
+                        "title": "Maxibon Nata",
+                        "price": "2.00"
+                    },{
+                        "title": "Maxibon Cookie",
+                        "price": "2.00"
+                    },{
+                        "title": "Cono KitKat",
+                        "price": "2.00"
+                    }]
+                },
+                {"¡Para los peques!" : [{
+                        "title": "Fantasmicos 5 sabores",
+                        "price": "2.50"
+                    },{
+                        "title": "Smarties con lacasitos",
+                        "price": "2.50"
+                    }]
+                }
+            ]
+        }
+    ]
+}

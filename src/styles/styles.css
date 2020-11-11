@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  body, .body {
+    color: #464646;
+    font-size: 100%;
+    margin: 0;
+    line-height: 1.4283;
+/*    font-family: 'Trispace', sans-serif; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(51,51,51,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+  }
+  a {
+    color: #f44f18;
+    text-decoration: none;
+  }
+
+
+@font-face {
+    font-family: 'lapresse';
+    src: local('lapresse'), url(./lapresse.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
