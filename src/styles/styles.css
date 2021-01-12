@@ -8,9 +8,7 @@
     line-height: 1.4283;
 /*    font-family: 'Trispace', sans-serif; */
     font-family: 'M PLUS Rounded 1c', sans-serif;
-
-    background: rgb(17,17,17);
-    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(51,51,51,1) 100%);
+    background: black;
     min-height: 100vh;
     display: flex;
     flex-flow: column;
