@@ -14,6 +14,9 @@ const Overlay = styled.div`
     background-color: rgba(0,0,0,.9);
     flex-flow: column;
     overflow: scroll;
+    opacity: ${props => props.show ? 1 : 0};
+    visibility: ${props => props.show ? 'visible' : 'hidden'};
+    transition: all .8s cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 const Goback = styled.div`
@@ -108,40 +111,37 @@ const AlergenIcon = ({item}) => {
 
 const ProductInfo = ({show, dismiss}) => {
     const alerges = Object.keys(alergenInfoData);
-    console.log('alerges, ', alerges)
     return (
         <>
         {
-            show ? (
-                <Overlay onClick={dismiss}>
-                    <Goback onClick={dismiss}><FaArrowLeft style={{fontSize: '2em', color: '#fafafa'}}/></Goback>
-                    <Title style={{marginTop: '3em'}}>Información sobre alergenos</Title>
-                    <EuropeButton>Reglamento Europeo 1169/11</EuropeButton>
-                    <Title style={{fontSize: '.8em'}}>Iconos utilizados</Title>
-                    <div style={{padding: '1em', paddingTop: '0'}}>
-                        <div style={{border: '4px double silver', padding: '.6em'}}>
-                        {
-                            alerges.map((item, h) => (
-                                <AlergenIcon item={item}/>
-                            ))
-                        }
-                        </div>
-
-                    </div>
-                    <Title style={{marginTop: '2em'}}>¿Qué Alérgenos debo declarar o sobre cuales debo informar?</Title>
-                    <SubTitle>A pesar de que existen infinidad de posibles alérgenos dentro de los alimentos solo es OBLIGATORIO DECLARAR aquellos de los que contienen alguno de los siguientes 14 elementos:</SubTitle>
-                    
-                    <div style={{border: '4px double silver', padding: '.3em', margin: '1em'}}>
-                        {
+            <Overlay onClick={dismiss} show={show}>
+                <Goback onClick={dismiss}><FaArrowLeft style={{fontSize: '2em', color: '#fafafa'}}/></Goback>
+                <Title style={{marginTop: '3em'}}>Información sobre alergenos</Title>
+                <EuropeButton>Reglamento Europeo 1169/11</EuropeButton>
+                <Title style={{fontSize: '.8em'}}>Iconos utilizados</Title>
+                <div style={{padding: '1em', paddingTop: '0'}}>
+                    <div style={{border: '4px double silver', padding: '.6em'}}>
+                    {
                         alerges.map((item, h) => (
-                            <AlergenInfo><FaCircle style={{fontSize: '.6em'}}/>&nbsp;&nbsp;{alergenInfoData[item]}</AlergenInfo>
-                            ))
-                        }
-                        </div>
-                    
-                    <Title style={{marginBottom: '3em'}}>Todos nuestros platos pueden contener trazas de alérgenos declarados en el nuevo Reglamento 1169/2011 de la UE. Si tiene alguna intolerancia o alergia por favor, consulte a nuestro personal para ofrecerles un mejor servicio.</Title>
-                </Overlay>            
-                ) : (<></>)
+                            <AlergenIcon item={item}/>
+                        ))
+                    }
+                    </div>
+
+                </div>
+                <Title style={{marginTop: '2em'}}>¿Qué Alérgenos debo declarar o sobre cuales debo informar?</Title>
+                <SubTitle>A pesar de que existen infinidad de posibles alérgenos dentro de los alimentos solo es OBLIGATORIO DECLARAR aquellos de los que contienen alguno de los siguientes 14 elementos:</SubTitle>
+                
+                <div style={{border: '4px double silver', padding: '.3em', margin: '1em'}}>
+                    {
+                    alerges.map((item, h) => (
+                        <AlergenInfo><FaCircle style={{fontSize: '.6em'}}/>&nbsp;&nbsp;{alergenInfoData[item]}</AlergenInfo>
+                        ))
+                    }
+                    </div>
+                
+                <Title style={{marginBottom: '3em'}}>Todos nuestros platos pueden contener trazas de alérgenos declarados en el nuevo Reglamento 1169/2011 de la UE. Si tiene alguna intolerancia o alergia por favor, consulte a nuestro personal para ofrecerles un mejor servicio.</Title>
+            </Overlay>            
         }
         </>
 

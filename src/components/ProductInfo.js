@@ -14,6 +14,9 @@ const Overlay = styled.div`
     background-color: rgba(0,0,0,.9);
     flex-flow: column;
     overflow: scroll;
+    opacity: ${props => props.show ? 1 : 0};
+    visibility: ${props => props.show ? 'visible' : 'hidden'};
+    transition: all .8s cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 const Goback = styled.div`
@@ -70,22 +73,24 @@ const ProductInfo = ({show, dismiss, data}) => {
     return (
         <>
         {
-            show ? (
-                <Overlay onClick={dismiss}>
-                    <Goback onClick={dismiss}><FaArrowLeft style={{fontSize: '2em', color: '#fafafa'}}/></Goback>
-                    <Title>{data.title}</Title>
-                    <AlergensWrapper>
-                        {
-                            data.alergen.map((item, i) => (
-                                <Alergen>
-                                    <AlergenIcon src={`${item}.png`} alt={item}/>
-                                    <AlergenInfo>{alergenInfoData[item]}</AlergenInfo>
-                                </Alergen>
-                            ))
-                        }
-                    </AlergensWrapper>
-                </Overlay>            
-                ) : (<></>)
+            <Overlay onClick={dismiss} show={show}>
+                {show && (
+                    <>
+                        <Goback onClick={dismiss}><FaArrowLeft style={{fontSize: '2em', color: '#fafafa'}}/></Goback>
+                        <Title>{data.title}</Title>
+                        <AlergensWrapper>
+                            {
+                                data.alergen.map((item, i) => (
+                                    <Alergen>
+                                        <AlergenIcon src={`${item}.png`} alt={item}/>
+                                        <AlergenInfo>{alergenInfoData[item]}</AlergenInfo>
+                                    </Alergen>
+                                ))
+                            }
+                        </AlergensWrapper>
+                    </>
+                )}
+            </Overlay>            
         }
         </>
 
