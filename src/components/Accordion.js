@@ -12,6 +12,7 @@ const Wrapper = styled.div`
     padding: 0;
     overflow: hidden;
     flex: 1 0 auto;
+    transition: all .6s cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 const AHeader = styled.div`
@@ -33,6 +34,7 @@ const ABody = styled.div`
     color: #fff;
     margin: 0;
     overflow: hidden;
+    transition: all .6s cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 
@@ -236,8 +238,7 @@ const Accordion = (data) => {
                     <ProductInfo show={showAlergenProductInfo} dismiss={toggleAlergenProductInfo} data={selectedItem}/>
                     <Wrapper>
                         <AccordionHeader title={title} show={show} toggle={toggle} />
-                        {show ? (
-                            <ABody>
+                            <ABody show={show}>
                                 <MenuWrapper>
                                 {menu && menu[title].map((item, i) => (
                                     <>
@@ -272,7 +273,6 @@ const Accordion = (data) => {
                                 ))}
                                 </MenuWrapper>
                             </ABody>
-                        ) : '' }
                     </Wrapper>
                 </>
             ) : ''}
