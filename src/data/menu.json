@@ -223,17 +223,17 @@
                         "def": "Vino de autor",
                         "price": "19.50"
                     },{
-                        "title": "Castillo de Aza",
+                        "title": "Finca Resalso, Bodegas Emilio Moro",
                         "alergen": ["alcohol"],
-                        "def": "Roble",
-                        "price": "10.50"
+                        "def": "Tempranillo",
+                        "price": "16.50"
                     },{
                         "title": "Finca Engalia",
                         "alergen": ["alcohol"],
                         "def": "Joven",
                         "price": "10.50"
                     },{
-                        "title": "Legarias",
+                        "title": "Legaris",
                         "alergen": ["alcohol"],
                         "def": "Roble",
                         "price": "13.50"
@@ -257,16 +257,6 @@
                     }]
                 },
                 {"D.O. UTIEL-REQUENA" : [{
-                        "title": "Casagrande",
-                        "def": "Vino de autor",
-                        "alergen": ["alcohol"],
-                        "price": "11.00"
-                    },{
-                        "title": "Señorío de Mestalla",
-                        "alergen": ["alcohol"],
-                        "def": "Crianza",
-                        "price": "10.50"
-                    },{
                         "title": "Señorío de Mestalla",
                         "alergen": ["alcohol"],
                         "def": "Roble",
@@ -277,10 +267,14 @@
                         "def": "Shiraz",
                         "price": "10.50"
                     }]
-                }
-            ]
-        },
-        {
+                },
+                {"D.O. VALENCIA" : [{
+                    "title": "Living Bodegas Iranzo",
+                    "alergen": ["alcohol"],
+                    "def": "Tempranillo, vino Ecológico",
+                    "price": "11.50"               
+                }]}
+            ]},{
             "vinos blancos": [
                 {"D.O. VALENCIA" : [{
                         "title": "Fustanova Blanco",
@@ -292,10 +286,6 @@
                         "title": "Hoya de Cadenas Blanco",
                         "alergen": ["alcohol"],
                         "price": "9.50"
-                    },{
-                        "title": "Señorío de Mestalla Blanco",
-                        "alergen": ["alcohol"],
-                        "price": "7.50"
                     }]
                 },
                 {"D.O. RUEDA" : [{
@@ -306,6 +296,10 @@
                         "title": "Solar de la Vega Verdejo",
                         "alergen": ["alcohol"],
                         "price": "7.50"
+		    },{
+                        "title": "Isabella Verdejo Semi-dulce",
+                        "alergen": ["alcohol"],
+                        "price": "11.00"
                     }]
                 }
             ]

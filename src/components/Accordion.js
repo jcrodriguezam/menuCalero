@@ -189,11 +189,6 @@ const MainItem = ({item, showInfo}) => {
 };
 
 const AccordionItem = ({index, subtitle, item, background, showInfo}) => {
-    const ableToShow = () => {
-        if (item.alergen || item.image) {
-            showInfo(); 
-        }
-    }
     return(
             <Item key={index} background={background} promo={item.promo}>
                 {subtitle && index === 0? ( <AHeaderSubtitle>{subtitle}</AHeaderSubtitle> ) : (<></>) }

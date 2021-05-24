@@ -39,16 +39,15 @@ const fotos = [
 
 const Header = () => {
     let [logoIndex, setlogo] = useState(0);
-
-    useEffect(() => {
-        const timeout = setTimeout(() => {
+    useEffect(() => {       
+        setTimeout(() => {
             const newIndex = logoIndex < fotos.length - 1 ? logoIndex + 1 : 0
             setlogo(newIndex);
-         }, 8000);
-       });
+        }, 8000);
+    });
 
     return (
-        <Wrapper background={fotos[logoIndex]}>
+        <Wrapper id="header" background={fotos[logoIndex]}>
             <Logo src="calero_logo.png" alt="Barbacoa Calero"/>
         </Wrapper>
     )

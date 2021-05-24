@@ -20,7 +20,9 @@ export default function Home() {
       <Wrapper>
         <Header />
         <AppBody />
-        <Footer />
+        <div style={{position: 'relative', overflow: 'hidden'}}>
+          <Footer style={{position: 'relative'}}/>
+        </div>
       </Wrapper>
     </div>
   )
