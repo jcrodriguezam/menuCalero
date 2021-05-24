@@ -35,6 +35,7 @@ const ABody = styled.div`
     margin: 0;
     overflow: hidden;
     transition: all .6s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: ${props => props.show ? '100vh' : 0};
 `;
 
 
