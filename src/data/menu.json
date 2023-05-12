@@ -9,11 +9,11 @@
             },{
                 "title": "Tabla de quesos",
                 "alergen": ["lacteo"],
-                "price": "7.00"
+                "price": "7.50"
             },{
                 "title": "Boquerones en vinagre",
                 "alergen": ["pescado"],
-                "price": "6.00"
+                "price": "6.50"
             },{
                 "title": "Ensaladilla rusa",
                 "alergen": ["lacteo"],
@@ -29,7 +29,7 @@
             },{
                 "title": "Lágrimas de pollo con mostaza",
                 "alergen": ["gluten"],
-                "price": "6.00"
+                "price": "6.50"
             },{
                 "title": "Queso frito con mermelada de arándanos",
                 "alergen": ["lacteo", "gluten"],
@@ -41,7 +41,7 @@
             },{
                 "title": "Puntilla",
                 "alergen": ["pescado", "gluten"],
-                "price": "6.00"
+                "price": "6.50"
             },{
                 "title": "Sepia",
                 "alergen": ["pescado"],
@@ -53,7 +53,7 @@
             },{
                 "title": "Clóchinas",
                 "alergen": ["pescado", "molusco"],
-                "price": "5.50"
+                "price": "6.50"
             },{
                 "title": "Gambas al ajillo",
                 "alergen": ["pescado", "crustaceos"],
@@ -65,7 +65,7 @@
             },{
                 "title": "Oreja a la plancha",
                 "alergen": ["lacteo"],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Croquetas",
                 "def": "4 unidades",
@@ -73,7 +73,7 @@
                 "price": "4.00"
             },{
                 "title": "Lomo de Orza",
-                "price": "4.50"
+                "price": "5.00"
             }
             ]
         },
@@ -81,17 +81,17 @@
             "Para los carnivoros": [{
                     "title": "Chuletas de cordero",
                     "alergen": [],
-                    "price": "13.00"
+                    "price": "13.50"
                 },{
                     "title": "Entrecot de ternera",
                     "alergen": [],
                     "image": "entrecotTernera.jpg",
-                    "price": "14.00"
+                    "price": "14.50"
                 },{
                     "title": "Chuletón de buey 750gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "18.00"
+                    "price": "19.50"
                 },{
                     "title": "Pinchos morunos",
                     "alergen": ["soja", "lacteo"],
@@ -101,7 +101,7 @@
                     "title": "Ensalada Bonillera",
                     "def": "Embutido y panceta trinchada",
                     "alergen": [],
-                    "price": "6.50"
+                    "price": "7.50"
                 },{
                     "title": "Fuente Barbacoa Calero",
                     "alergen": [],
@@ -109,7 +109,7 @@
                         "· 2 Chuletas de cordero",
                         "· 3 Piezas de embutido por persona"
                     ],
-                    "price": "11.50"
+                    "price": "12.50"
                 },{
                     "promo": true,
                     "title": "Especial para cuatro personas",
@@ -120,7 +120,7 @@
                         "· 8 Chuletas de cordero",
                         "· 4 Pinchos"
                     ],
-                    "price": "62.00"
+                    "price": "64.00"
                 },{
                     "extra": "Todas las carnes se sirven con patatas a lo pobre y pimientos"
                 },{
@@ -137,12 +137,12 @@
             },{
                 "title": "Brascada",
                 "alergen": ["gluten"],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Manchego",
                 "def": "Güeñas, patatas y alioli",
                 "alergen": ["gluten", "huevo"],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Almussafes",
                 "alergen": ["gluten", "lacteo"],
@@ -161,7 +161,7 @@
                 "title": "Trinche Carlovich",
                 "def": "Pechuga, patatas, queso de cabra y cebolla caramelizada",
                 "alergen": [],
-                "price": "5.50"
+                "price": "6.00"
             }
             ]
         },
@@ -204,11 +204,11 @@
                 },{
                     "title": "Sepionet",
                     "alergen": ["pescado"],
-                    "price": "9.00"
+                    "price": "9.50"
                 },{
                     "title": "Parrillada marisco",
                     "def": "2 personas",
-                    "price": "28.00",
+                    "price": "29.00",
                     "alergen": ["pescado", "molusco", "crustaceos"],
                     "items": [
                         "· Sepionet",
@@ -231,46 +231,26 @@
                         "title": "Finca Resalso, Bodegas Emilio Moro",
                         "alergen": ["alcohol"],
                         "def": "Tempranillo",
-                        "price": "16.50"
-                    },{
-                        "title": "Finca Engalia",
-                        "alergen": ["alcohol"],
-                        "def": "Joven",
-                        "price": "10.50"
-                    },{
-                        "title": "Legaris",
-                        "alergen": ["alcohol"],
-                        "def": "Roble",
-                        "price": "13.50"
+                        "price": "18.00"
                     }]
                 },
                 {"D.O. RIOJA" : [{
                         "title": "Arrios",
                         "alergen": ["alcohol"],
                         "def": "Joven",
-                        "price": "9.50"
+                        "price": "10.50"
                     },{
                         "title": "Coto Mayor",
-                        "alergen": ["alcohol"],
-                        "def": "Crianza",
-                        "price": "12.50"
-                    },{
-                        "title": "Viña Pomal",
                         "alergen": ["alcohol"],
                         "def": "Crianza",
                         "price": "14.50"
                     }]
                 },
                 {"D.O. UTIEL-REQUENA" : [{
-                        "title": "Señorío de Mestalla",
+                        "title": "Bobal únio",
                         "alergen": ["alcohol"],
-                        "def": "Roble",
-                        "price": "8.00"
-                    },{
-                        "title": "Hoya de Cádenas",
-                        "alergen": ["alcohol"],
-                        "def": "Shiraz",
-                        "price": "10.50"
+                        "def": "Joven",
+                        "price": "18.50"
                     }]
                 },
                 {"D.O. VALENCIA" : [{
@@ -284,28 +264,20 @@
                 {"D.O. VALENCIA" : [{
                         "title": "Fustanova Blanco",
                         "alergen": ["alcohol"],
-                        "price": "11.00"
+                        "price": "12.50"
                     }]
                 },
-                {"D.O. UTIEL-REQUENA" : [{
-                        "title": "Hoya de Cadenas Blanco",
-                        "alergen": ["alcohol"],
-                        "price": "9.50"
-                    }]
+                {"D.O. UTIEL-REQUENA" : []
                 },
                 {"D.O. RUEDA" : [{
-                        "title": "Analivia Verdejo",
-                        "alergen": ["alcohol"],
-                        "price": "9.50"
-                    },{
                         "title": "Solar de la Vega Verdejo",
                         "alergen": ["alcohol"],
-                        "price": "7.50"
-		    },{
-                        "title": "Isabella Verdejo Semi-dulce",
+                        "price": "9.00"
+		            },{
+                        "title": "Pampano verdejo semi-dulce",
                         "alergen": ["alcohol"],
-                        "price": "11.00"
-                    }]
+                        "price": "13.50"
+		            }]
                 }
             ]
         },
@@ -314,13 +286,13 @@
                 {"D.O. UTIEL-REQUENA" : [{
                         "title": "Hoya de Cadenas Rosado",
                         "alergen": ["alcohol"],
-                        "price": "9.50"
+                        "price": "11.00"
                     }]
                 },
                 {"D.O. NAVARRA" : [{
                         "title": "Viña Campus Rosado",
                         "alergen": ["alcohol"],
-                        "price": "8.50"
+                        "price": "10.50"
                     }]
                 }
             ]
