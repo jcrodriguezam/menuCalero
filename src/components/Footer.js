@@ -42,7 +42,7 @@ const AlergenLink = styled.span`
 `;
 
 
-const Footer = ({ alergenInfo, extraText }) => {
+const Footer = ({ alergenInfo, extraText={} }) => {
     const [show, setShow] = useState(false);
     const toggle = () => { setShow(!show) }
     return (
