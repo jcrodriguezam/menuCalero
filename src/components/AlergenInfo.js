@@ -82,28 +82,20 @@ const AlergenInfo = styled.p`
     padding: 0 1em;
 `;
 
-const names = {
-    "gluten": "Cereales con gluten",
-    "lacteo": "Lácteos",
-    "huevo": "Huevos",
-    "pescado": "Pescado",
-    "crustaceos": "Crustáceos",
-    "molusco": "Moluscos",
-    "soja": "Soja",
-    "cacahuetes": "Cacahuetes",
-    "frutosCascara": "Frutos secos",
-    "sesamo": "Sésamo",
-    "mostaza": "Mostaza",
-    "apio": "Apio",
-    "altramuz": "Altramuz",
-    "alcohol": "Sulfitos"
-}
+const Icon = styled.img`
+    object-fit: contain;
+    max-width: 1.6em;
+    opacity: .8;
+    display: inline-flex;
+    margin-left: .5em;
+    transform: translateY(25%);
+`;
 
-const AlergenIcon = ({item}) => {
+const AlergenIcon = ({item, names = {}}) => {
     return (
        <div style={{display: 'inline-flex', flexFlow: 'column', width: '50%'}}>
            <AlergenI src={`${item}.png`} alt={item}/>
-            <span style={{color: '#fafafaaa', margin: 'auto', display: 'block'}} dangerouslySetInnerHTML={{ __html: names[item] }} />
+            <span style={{color: '#fafafaaa', margin: 'auto', display: 'block', textAlign: "center"}} dangerouslySetInnerHTML={{ __html: names[item] }} />
        </div> 
     )
 }
@@ -124,7 +116,7 @@ const ProductInfo = ({ show, dismiss, alergenInfo, extraText={}}) => {
                     <div style={{border: '4px double silver', padding: '.6em'}}>
                     {
                         alerges.map((item, h) => (
-                            <AlergenIcon item={item}/>
+                            <AlergenIcon item={item} names={extraText.names}/>
                         ))
                     }
                     </div>
@@ -137,7 +129,11 @@ const ProductInfo = ({ show, dismiss, alergenInfo, extraText={}}) => {
                     {
                     alerges.map((item, h) => (
                         <AlergenInfo>
-                            <FaCircle style={{fontSize: '.6em'}} />
+                            <Icon 
+                                key={h} 
+                                alt={item}
+                                src={`${item}.png`}
+                            />
                             &nbsp;&nbsp;
                             {alergenInfo[item]}
                         </AlergenInfo>
