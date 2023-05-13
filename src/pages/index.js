@@ -7,6 +7,7 @@ import "../styles/styles.css"
 
 const Wrapper = styled.div`
   max-width: 768px;
+  width:100%;
   overflow: hidden;
   margin: 0 auto;
   min-height: 100vh;
