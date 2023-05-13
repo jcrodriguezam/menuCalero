@@ -31,3 +31,76 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+.language-selector {
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  right: 0;
+  border-radius: 10px 0px  0px 10px;
+  padding: 0px 10px;
+  background-color: rgba(0,0,0,.7);
+  width: 50px;
+}
+
+.language-option {
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+  min-width: 300px;
+  background-color:transparent
+  ;
+  padding: .5em 1em;
+  color: #fafafa;
+  border: 2px solid transparent;
+  border-radius: 0.5em;
+  transition: .3s all ease-in-out;
+  text-align: center;
+}
+
+.language-option.active {
+  font-weight: bold;
+}
+
+.language-selector .dropdown {
+  display: none;
+}
+
+.language-selector.open .dropdown {
+  display: flex;
+}
+
+.selected-language {
+  font-size: 2em;
+  cursor:pointer;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,.8);
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  font-size: 2em;
+  flex-flow:column;
+} 
+
+.language-option.active {
+  background-color: rgba(0,0,0,.2);
+  padding: .5em 1em;
+  color: #fafafa;
+  border: 2px solid #6b5f19;
+  border-radius: 0.5em;
+  transition: .3s all ease-in-out;
+}
+
+.language-option:hover {
+  padding: .5em 1em;
+  color: #fafafa;
+  border: 2px solid #a28d14;
+  border-radius: 0.5em;
+}
+

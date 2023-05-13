@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect  }  from "react"
 import styled from 'styled-components'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -15,13 +15,49 @@ const Wrapper = styled.div`
 `;
 
 export default function Home() {
+  let [language, setLanguage] = useState(undefined);
+  let [data, setData] = useState(undefined);
+  let [alergenInfo, setAlergenInfo] = useState(undefined);
+  let [extraText, seExtraText] = useState(undefined);
+
+  
+  const changeLanguage = (newLanguage) => setLanguage(newLanguage);
+  useEffect(() => {       
+    if (language && language.code) {
+      import(`../data/${language.code}/menu.json`)
+        .then((module) => {
+          setData(module);
+        })
+        .catch((error) => {
+          console.error(`Error al importar el archivo de idioma: ${error}`);
+        });
+  
+        import(`../data/${language.code}/alergenInfo.json`)
+        .then((module) => {
+          let newModule = { ...module }
+          delete newModule.default
+          setAlergenInfo(newModule);
+        })
+
+        import(`../data/${language.code}/misc.json`)
+        .then((module) => {
+          let newModule = { ...module }
+          delete newModule.default
+          seExtraText(newModule);
+        })
+        .catch((error) => {
+          console.error(`Error al importar el archivo de idioma: ${error}`);
+        });
+    }
+  }, [language]);
+
   return (
     <div className="body">
       <Wrapper>
-        <Header />
-        <AppBody />
+        <Header language={language} changeLanguage={changeLanguage} />
+        <AppBody data={data} alergenInfo={alergenInfo} />
         <div style={{position: 'relative', overflow: 'hidden'}}>
-          <Footer style={{position: 'relative'}}/>
+          <Footer alergenInfo={alergenInfo} extraText={extraText} style={{position: 'relative'}}/>
         </div>
       </Wrapper>
     </div>

@@ -1,6 +1,5 @@
 import React from "react"
 import styled from 'styled-components'
-import alergenInfoData from '../data/alergenInfo.json';
 import { FaArrowLeft, FaCircle } from 'react-icons/fa';
 
 
@@ -109,16 +108,18 @@ const AlergenIcon = ({item}) => {
     )
 }
 
-const ProductInfo = ({show, dismiss}) => {
-    const alerges = Object.keys(alergenInfoData);
+const ProductInfo = ({ show, dismiss, alergenInfo, extraText={}}) => {
+    const alerges = alergenInfo ? Object.keys(alergenInfo) : [];
+
     return (
         <>
-        {
-            <Overlay onClick={dismiss} show={show}>
+        { alerges && alerges.length? 
+            (
+                <Overlay onClick={dismiss} show={show}>
                 <Goback onClick={dismiss}><FaArrowLeft style={{fontSize: '2em', color: '#fafafa'}}/></Goback>
-                <Title style={{marginTop: '3em'}}>Información sobre alergenos</Title>
-                <EuropeButton>Reglamento Europeo 1169/11</EuropeButton>
-                <Title style={{fontSize: '.8em'}}>Iconos utilizados</Title>
+                <Title style={{marginTop: '3em'}}>{extraText.alergenInfo}</Title>
+                <EuropeButton>{extraText.euroLaw}</EuropeButton>
+                <Title style={{fontSize: '.8em'}}>{extraText.iconsUsed}</Title>
                 <div style={{padding: '1em', paddingTop: '0'}}>
                     <div style={{border: '4px double silver', padding: '.6em'}}>
                     {
@@ -129,19 +130,24 @@ const ProductInfo = ({show, dismiss}) => {
                     </div>
 
                 </div>
-                <Title style={{marginTop: '2em'}}>¿Qué Alérgenos debo declarar o sobre cuales debo informar?</Title>
-                <SubTitle>A pesar de que existen infinidad de posibles alérgenos dentro de los alimentos solo es OBLIGATORIO DECLARAR aquellos de los que contienen alguno de los siguientes 14 elementos:</SubTitle>
+                <Title style={{marginTop: '2em'}}>{extraText.infoTitle}</Title>
+                <SubTitle>{extraText.info}</SubTitle>
                 
                 <div style={{border: '4px double silver', padding: '.3em', margin: '1em'}}>
                     {
                     alerges.map((item, h) => (
-                        <AlergenInfo><FaCircle style={{fontSize: '.6em'}}/>&nbsp;&nbsp;{alergenInfoData[item]}</AlergenInfo>
+                        <AlergenInfo>
+                            <FaCircle style={{fontSize: '.6em'}} />
+                            &nbsp;&nbsp;
+                            {alergenInfo[item]}
+                        </AlergenInfo>
                         ))
                     }
                     </div>
                 
-                <Title style={{marginBottom: '3em'}}>Todos nuestros platos pueden contener trazas de alérgenos declarados en el nuevo Reglamento 1169/2011 de la UE. Si tiene alguna intolerancia o alergia por favor, consulte a nuestro personal para ofrecerles un mejor servicio.</Title>
-            </Overlay>            
+                <Title style={{marginBottom: '3em'}}>{extraText.endingLine}</Title>
+            </Overlay>  
+            ) : ''          
         }
         </>
 

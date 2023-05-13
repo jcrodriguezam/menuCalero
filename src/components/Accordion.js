@@ -221,13 +221,13 @@ const AccordionItem = ({index, subtitle, item, background, showInfo}) => {
     )
 };
 
-const Accordion = (data) => {
+const Accordion = ({ data, alergenInfo } ) => {
     const [show, setShow] = useState(false);
     const [showAlergenProductInfo, setShowAlergenProductInfo] = useState(false);
     const [selectedItem, setSelectedItem] = useState(0);
     const toggle = () => { setShow(!show) }
     const toggleAlergenProductInfo = (item) => { setSelectedItem(item); setShowAlergenProductInfo(!showAlergenProductInfo) }
-    const menu = data.data;
+    const menu = data;
     const title = Object.keys(menu)[0];
     let subtitle = menu[title].find((m) => m.subtitle);
     subtitle = subtitle && subtitle.subtitle ? subtitle.subtitle : '';
@@ -236,7 +236,7 @@ const Accordion = (data) => {
         <>
             {title ? (
                 <>
-                    <ProductInfo show={showAlergenProductInfo} dismiss={toggleAlergenProductInfo} data={selectedItem}/>
+                    <ProductInfo show={showAlergenProductInfo} dismiss={toggleAlergenProductInfo} data={selectedItem} alergenInfo={alergenInfo} />
                     <Wrapper>
                         <AccordionHeader title={title} show={show} toggle={toggle} />
                             <ABody show={show}>

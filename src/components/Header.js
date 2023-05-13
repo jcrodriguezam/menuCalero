@@ -37,7 +37,54 @@ const fotos = [
     "terraza.jpg"
 ]
 
-const Header = () => {
+// Array de idiomas
+const languages = [
+    { code: 'es', label: 'Español', flag: '🇪🇸' },
+    { code: 'en', label: 'English', flag: '🇬🇧' },
+    { code: 'fr', label: 'Français', flag: '🇫🇷' },
+    { code: 'it', label: 'Italiano', flag: '🇮🇹' }
+  ];
+  
+  const LanguageSelector = ({language = { code: 'es', label: 'Español', flag: '🇪🇸' }, changeLanguage}) => {
+    const [isOpen, setIsOpen] = useState(true);
+    const [selectedLanguage, setSelectedLanguage] = useState(language);
+  
+    const handleLanguageChange = (language) => {
+      setSelectedLanguage(language);
+      changeLanguage(language)
+      setIsOpen(false);
+    };
+  
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    return (
+      <div className={`language-selector ${isOpen ? 'open' : ''}`}>
+        <div className="selected-language" onClick={toggleDropdown}>
+          {selectedLanguage.flag}
+        </div>
+        {isOpen && (
+          <div className="dropdown" onClick={() => setIsOpen(!isOpen)} >
+            {languages.map((language) => (
+              <div
+                key={language.code}
+                className={`language-option ${language.code === selectedLanguage.code ? 'active' : ''}`}
+                onClick={() => handleLanguageChange(language)}
+              >
+                {language.flag} {language.label}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  
+
+
+const Header = ({language, changeLanguage}) => {
     let [logoIndex, setlogo] = useState(0);
     useEffect(() => {       
         setTimeout(() => {
@@ -49,6 +96,7 @@ const Header = () => {
     return (
         <Wrapper id="header" background={fotos[logoIndex]}>
             <Logo src="calero_logo.png" alt="Barbacoa Calero"/>
+            <LanguageSelector language={language} changeLanguage={changeLanguage} />
         </Wrapper>
     )
 }

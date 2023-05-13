@@ -42,18 +42,18 @@ const AlergenLink = styled.span`
 `;
 
 
-const Footer = () => {
+const Footer = ({ alergenInfo, extraText }) => {
     const [show, setShow] = useState(false);
     const toggle = () => { setShow(!show) }
     return (
         <Wrapper2>
             <Info>
-                En caso de padecer alguna alergia o intolerancia alimenticia consulte a nuestro camarero<br />
-                <AlergenLink onClick={toggle}>Información sobre productos alérgenos</AlergenLink>
+                {extraText.preInfo}<br />
+                <AlergenLink onClick={toggle}>{extraText.alergenInfoTitle}</AlergenLink>
             </Info>
             <Info style={{display: 'block', margin: 'auto', padding: 0}}>@barbacoacalero98</Info>
             <Wrapper>Made with &nbsp;<FaHeart style={{color: '#ff0045'}}/>&nbsp; by ROAM</Wrapper>
-            <AlergenInfo dismiss={toggle} show={show}/>
+            <AlergenInfo dismiss={toggle} show={show} alergenInfo={alergenInfo} extraText={extraText}/>
 
         </Wrapper2>
     )
