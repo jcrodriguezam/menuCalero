@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `;
 
 export default function Home() {
-  let [language, setLanguage] = useState(undefined);
+  let [language, setLanguage] = useState({ code: 'es', label: 'Español', flag: '🇪🇸' });
   let [data, setData] = useState(undefined);
   let [alergenInfo, setAlergenInfo] = useState(undefined);
   let [extraText, seExtraText] = useState(undefined);
