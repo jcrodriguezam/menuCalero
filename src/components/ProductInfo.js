@@ -1,6 +1,5 @@
 import React from "react"
 import styled from 'styled-components'
-import alergenInfoData from '../data/alergenInfo.json';
 import { FaArrowLeft } from 'react-icons/fa';
 
 
@@ -69,7 +68,7 @@ const AlergenInfo = styled.p`
 
 
 
-const ProductInfo = ({show, dismiss, data}) => {
+const ProductInfo = ({show, dismiss, data, alergenInfo}) => {
     return (
         <>
         {
@@ -83,7 +82,7 @@ const ProductInfo = ({show, dismiss, data}) => {
                                 data.alergen.map((item, i) => (
                                     <Alergen>
                                         <AlergenIcon src={`${item}.png`} alt={item}/>
-                                        <AlergenInfo>{alergenInfoData[item]}</AlergenInfo>
+                                        <AlergenInfo>{alergenInfo[item]}</AlergenInfo>
                                     </Alergen>
                                 ))
                             }
