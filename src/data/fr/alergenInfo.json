@@ -1,0 +1,16 @@
+{
+    "gluten": "Céréales contenant du gluten (blé, orge, avoine, seigle, épeautre, kamut, y compris leurs variétés et dérivés).",
+    "lacteo": "Lait et produits laitiers (y compris le lactose).",
+    "huevo": "Œufs et produits à base d'œufs.",
+    "pescado": "Poissons et produits à base de poisson.",
+    "crustaceos": "Crustacés et produits à base de crustacés.",
+    "molusco": "Mollusques et produits à base de mollusques.",
+    "soja": "Soja et produits à base de soja.",
+    "cacahuetes": "Arachides et produits à base d'arachides.",
+    "frutosCascara": "Fruits à coque. (noix, amandes, noisettes, noix de cajou, pacanes, faînes et produits dérivés)",
+    "sesamo": "Graines de sésame et produits à base de graines de sésame.",
+    "mostaza": "Moutarde et produits dérivés.",
+    "apio": "Céleri et produits dérivés.",
+    "altramuz": "Lupin et produits à base de lupin.",
+    "alcohol": "Dioxyde de soufre et sulfites en concentrations supérieures à 10 mg/l ou kg."
+    }

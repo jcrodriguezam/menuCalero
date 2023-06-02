@@ -1,0 +1,26 @@
+{
+    "preInfo": "In case of any food allergies or intolerances, please consult our waiter.",
+    "alergenInfoTitle": "Information about allergenic products",
+    "alergenInfo": "Allergen Information",
+    "euroLaw": "European Regulation 1169/11",
+    "iconsUsed": "Icons Used",
+    "infoTitle": "Which Allergens should I declare or provide information about?",
+    "info": "Although there are numerous potential allergens in food, it is ONLY MANDATORY to declare those that contain any of the following 14 elements:",
+    "endingLine": "All our dishes may contain traces of allergens declared in the new EU Regulation 1169/2011. If you have any intolerance or allergy, please consult our staff for a better service.",
+    "names": {
+        "gluten": "Gluten-containing cereals",
+        "lacteo": "Dairy",
+        "huevo": "Eggs",
+        "pescado": "Fish",
+        "crustaceos": "Shellfish",
+        "molusco": "Mollusks",
+        "soja": "Soy",
+        "cacahuetes": "Peanuts",
+        "frutosCascara": "Tree nuts",
+        "sesamo": "Sesame",
+        "mostaza": "Mustard",
+        "apio": "Celery",
+        "altramuz": "Lupin",
+        "alcohol": "Sulfites"
+        }
+    }

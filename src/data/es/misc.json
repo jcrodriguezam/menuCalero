@@ -1,0 +1,26 @@
+{
+    "preInfo": "En caso de padecer alguna alergia o intolerancia alimenticia consulte a nuestro camarero",
+    "alergenInfoTitle": "Información sobre productos alérgenos",
+    "alergenInfo": "Información sobre alergenos",
+    "euroLaw": "Reglamento Europeo 1169/11",
+    "iconsUsed": "Iconos utilizados",
+    "infoTitle": "¿Qué Alérgenos debo declarar o sobre cuales debo informar?",
+    "info": "A pesar de que existen infinidad de posibles alérgenos dentro de los alimentos solo es OBLIGATORIO DECLARAR aquellos de los que contienen alguno de los siguientes 14 elementos:",
+    "endingLine": "Todos nuestros platos pueden contener trazas de alérgenos declarados en el nuevo Reglamento 1169/2011 de la UE. Si tiene alguna intolerancia o alergia por favor, consulte a nuestro personal para ofrecerles un mejor servicio.",
+    "names": {
+        "gluten": "Cereales con gluten",
+        "lacteo": "Lácteos",
+        "huevo": "Huevos",
+        "pescado": "Pescado",
+        "crustaceos": "Crustáceos",
+        "molusco": "Moluscos",
+        "soja": "Soja",
+        "cacahuetes": "Cacahuetes",
+        "frutosCascara": "Frutos secos",
+        "sesamo": "Sésamo",
+        "mostaza": "Mostaza",
+        "apio": "Apio",
+        "altramuz": "Altramuz",
+        "alcohol": "Sulfitos"
+    }
+}

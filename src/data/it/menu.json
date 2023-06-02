@@ -1,0 +1,394 @@
+{
+    "menu": [
+        {
+            "Antipasti": [{
+                "title": "Tagliere prosciutto crudo e formaggio",
+                "def": "Por persona",
+                "alergen": ["lacteo"],
+                "price": "3.50"
+            },{
+                "title": "Tagliere di formaggi",
+                "alergen": ["lacteo"],
+                "price": "7.50"
+            },{
+                "title": "Acciughe sott’aceto",
+                "alergen": ["pescado"],
+                "price": "6.50"
+            },{
+                "title": "Insalata russa",
+                "alergen": ["lacteo"],
+                "price": "5.00"
+            },{
+                "title": "Esgarraet",
+                "def": "peperoni rossi con baccalá",
+                "alergen": ["pescado"],
+                "price": "5.50"
+            },{
+                "title": "Patatas bravas",
+                "alergen": ["huevo", "soja"],
+                "price": "5.00"
+            },{
+                "title": "Lacrime di pollo fritto con senape",
+                "alergen": ["gluten"],
+                "price": "6.50"
+            },{
+                "title": "Formaggio fritto con marmellata di mirtilli",
+                "alergen": ["lacteo", "gluten"],
+                "price": "6.00"
+            },{
+                "title": "Calamari",
+                "alergen": ["pescado", "gluten"],
+                "price": "7.00"
+            },{
+                "title": "Seppioline fritte",
+                "alergen": ["pescado", "gluten"],
+                "price": "6.50"
+            },{
+                "title": "Seppia",
+                "alergen": ["pescado"],
+                "price": "7.50"
+            },{
+                "title": "Polipo alla “gallega",
+                "alergen": ["pescado"],
+                "price": "8.00"
+            },{
+                "title": "Vongole valenziane",
+                "alergen": ["pescado", "molusco"],
+                "price": "6.50"
+            },{
+                "title": "Gamberetti all’aglio",
+                "alergen": ["pescado", "crustaceos"],
+                "price": "7.00"
+            },{
+                "title": "Coda di maiale",
+                "alergen": ["lacteo", "soja"],
+                "price": "5.50"
+            },{
+                "title": "Orecchie di maiale grigliate",
+                "alergen": ["lacteo"],
+                "price": "6.00"
+            },{
+                "title": "Crocchette",
+                "def": "4 pezzi",
+                "alergen": ["gluten", "pescado"],
+                "price": "4.00"
+            },{
+                "title": "Filetto di maiale alla “Orza” ",
+                "price": "5.00"
+            }
+            ]
+        },
+        {
+            "PER I CARNIVORI": [{
+                    "title": "Costoletta di agnello",
+                    "alergen": [],
+                    "price": "13.50"
+                },{
+                    "title": "Entrecot di vitello",
+                    "alergen": [],
+                    "image": "entrecotTernera.jpg",
+                    "price": "14.50"
+                },{
+                    "title": "Bistecca di bue 750 gr",
+                    "image": "chuletonBuey.jpg",
+                    "alergen": [],
+                    "price": "19.50"
+                },{
+                    "title": "Spiedini di “moruno”",
+                    "alergen": ["soja", "lacteo"],
+                    "def": "al pezzo",
+                    "price": "2.50"
+                },{
+                    "title": "Insalata “bonillera”",
+                    "def": "Salumi e pancetta a cubetti",
+                    "alergen": [],
+                    "price": "7.50"
+                },{
+                    "title": "Barbecue Calero",
+                    "alergen": [],
+                    "items": [
+                        "· 2 Costolette di agnello",
+                        "· 3 pezzi di salsiccia a persona"
+                    ],
+                    "price": "12.50"
+                },{
+                    "promo": true,
+                    "title": "Speciale per quattro persone",
+                    "alergen": ["soja", "lacteo"],
+                    "items": [
+                        "· Bistecca di bue",
+                        "· Entrecot di vitello",
+                        "· 8 Costolette di agnello",
+                        "· 4 Spiedini di “moruno”"
+                    ],
+                    "price": "64.00"
+                },{
+                    "extra": "Tutta la carne viene servita con patate “a lo pobre” e peperoni"
+                },{
+                    "extra": "Le salse (Roquefort, peperoni e al “ajillo”) se aggiunte hanno un costo di 1,50 € per piatto.",
+                    "alergen": ["lacteo"]
+                }
+            ]
+        },
+        {
+            "Panini": [{
+                "title": "Chivito",
+                "def": "filetto di maiale, formaggio, bacon, lattuga, maionese e uovo",
+                "alergen": ["gluten", "huevo", "lacteo", "soja"],
+                "price": "6.00"
+            },{
+                "title": "Brascada",
+                "def": "Carne di vitello, prosciutto crudo e cipolla grigliata",
+                "alergen": ["gluten"],
+                "price": "6.00"
+            },{
+                "title": "Manchego",
+                "def": "Salsiccia di Albacete, patate e “alioli”",
+                "alergen": ["gluten", "huevo"],
+                "price": "6.00"
+            },{
+                "title": "Almussafes",
+                "def": "“Sobrasada”, formaggio e cipolla grigliata",
+                "alergen": ["gluten", "lacteo"],
+                "price": "4.50"
+            },{
+                "title": "Huertano",
+                "def": "Tonno, pomodoro, lattuga, uovo, asparagi e maionese",
+                "alergen": ["gluten", "lacteo", "huevo"],
+                "price": "5.50"
+            },{
+                "title": "Mir",
+                "def": "Petto di pollo, pomodoro, formaggio e maionese",
+                "alergen": [],
+                "price": "5.50"
+            },{
+                "title": "Trinche Carlovich",
+                "def": "Petto di pollo, patate, formaggio caprino e cipolla caramellata",
+                "alergen": [],
+                "price": "6.00"
+            }
+            ]
+        },
+        {
+            "Hamburger alla brace": [{
+                "subtitle": "Scegliere il tipo di carne Vitello o Angus"
+            },{
+                "title": "Heisenberg",
+                "def": "Carne, Bacon, formaggio cheddar e salsa barbecue",
+                "image": "heisengbergAngus.jpg",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "8.00 / 11.00"
+            },{
+                "title": "Ruud Güilt",
+                "def": "Carne, Bacon, formaggio caprino e cipolla caramellata",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "9.00 / 12.00"
+            },{
+                "title": "Zalazar",
+                "def": "Carne, formaggio, passata di pomodoro cruda e uovo fritto",
+                "alergen": ["gluten", "huevo", "lacteo"],
+                "price": "8.00 / 11.00"
+            },{
+                "title": "Veggie",
+                "def": "Hamburger di carote e quinoa, cipolla, lattuga, pomodoro",
+                "alergen": ["gluten"],
+                "price": "9.00"
+            },{
+                "extra": "Fai il tuo hamburger doppio: Vitello 3.00 €/ Angus 4.50 €"
+            },{
+                "extra": "Tutti gli hamburger vengono serviti con patate e salse"
+            }
+            ]
+        },
+        {
+            "Pesce": [{
+                    "title": "Pesce spada",
+                    "alergen": ["pescado"],
+                    "price": "9.50"
+                },{
+                    "title": "Seppioline valenziane",
+                    "alergen": ["pescado"],
+                    "price": "9.50"
+                },{
+                    "title": "Frutti di mare alla brace",
+                    "def": "2 pers",
+                    "price": "29.00",
+                    "alergen": ["pescado", "molusco", "crustaceos"],
+                    "items": [
+                        "· Seppioline valenziane ",
+                        "· Pesce spada ",
+                        "· Calamari grigliati ",
+                        "· Gamberi grigliati ",
+                        "· Vongole valenziane"
+                    ]
+                }
+            ]
+        },
+       {
+            "Rossi": [
+                {
+                    "D.O. UTIEL-REQUENA" : [
+                    {
+                        "title": "Casagrande",
+                        "alergen": ["alcohol"],
+                        "def": "Vino de autor",
+                        "price": "13.50"
+                    }]
+                },{                
+                    "D.O. RIBERA DEL DUERO" : [
+                    {
+                        "title": "Conde de San Cristóbal",
+                        "alergen": ["alcohol"],
+                        "def": "Crianza",
+                        "price": "19.50"
+                    },{
+                        "title": "Finca Resalso, Bodega Emilio Moro",
+                        "alergen": ["alcohol"],
+                        "def": "Tempranillo",
+                        "price": "18.00"
+                    } , {
+                        "title": "Traslascuestas",
+                        "alergen": ["alcohol"],
+                        "def": "Roble",
+                        "price": "18.00"
+                    }
+                ]
+                },
+                {"D.O. RIOJA" : [{
+                        "title": "Coto Mayor",
+                        "alergen": ["alcohol"],
+                        "def": "Crianza",
+                        "price": "14.50"
+                    },{
+                        "title": "Marqués de Vargas",
+                        "alergen": ["alcohol"],
+                        "def": "Reserva 2017",
+                        "price": "22.00"
+                    },{
+                        "title": "Fernández de Piérola",
+                        "alergen": ["alcohol"],
+                        "def": "Reserva 2009",
+                        "price": "22.00"
+                    }]
+                }
+    ]},{
+            "Bianchi": [
+                {"D.O. VALENCIA" : [{
+                    "title": "Fustanova Blanco",
+                    "alergen": ["alcohol"],
+                    "price": "13.00"
+                }]
+            },
+            {"D.O. RUEDA" : [{
+                    "title": "Solar de la Vega",
+                    "alergen": ["alcohol"],
+                    "def": "Verdejo",
+                    "price": "12.50"
+                },{
+                    "title": "Pampano semi-dulce",
+                    "alergen": ["alcohol"],
+                    "def": "Verdejo",
+                    "price": "13.50"
+                },{
+                    "title": "Cyatho",
+                    "alergen": ["alcohol"],
+                    "def": "Verdejo",
+                    "price": "14.50"
+                }]
+            }
+        ]
+        },
+        {
+            "Rosati ": [
+                {"D.O. NAVARRA" : [{
+                        "title": "Viña Campus Rosado",
+                        "alergen": ["alcohol"],
+                        "price": "11.50"
+                    }]
+                }
+            ]
+        },
+        {
+            "I dolci della “Jefa” (Capa)": [
+                {"Fatto in casa" : [{
+                        "title": "Crema all’ uovo o caffé",
+                        "price": "3.00"
+                    },{
+                        "title": "Crema pasticcera",
+                        "price": "3.00"
+                    },{
+                        "title": "Mousse di cioccolato o limone",
+                        "price": "3.00"
+                    }]
+                },
+                {"Tarrine e coppe" : [{
+                        "title": "Copa Le Tentazione Panna e Cioccolato",
+                        "price": "5.00"
+                    },{
+                        "title": "Copa Le Tentazione Caffè",
+                        "price": "5.00"
+                    },{
+                        "title": "Copa Le Tentazione Tiramisú",
+                        "price": "5.00"
+                    },{
+                        "title": "Crema Catalana",
+                        "price": "5.20"
+                    },{
+                        "title": "Tarrina Suprema de Torrone",
+                        "price": "3.40"
+                    },{
+                        "title": "Torta di whisky",
+                        "price": "4.50"
+                    },{
+                        "title": "Torta Carolina",
+                        "price": "4.50"
+                    },{
+                        "title": "Palline di cioccolato e panna ",
+                        "def": "4 pezzi",
+                        "price": "3.20"
+                        },{
+                        "title": "Mini Tartufi gelato ",
+                        "def": "4 pezzi",
+                        "price": "3.20"
+                    }]
+                },
+                {"Combo gelato per 4 persone" : [{
+                        "title": "Torta de whisky, torta carolina, Palline di cioccolato e panna e mini tartufi",
+                        "promo": true,
+                        "price": "12.00"
+                    }]
+                },
+                {"Gelati" : [{
+                        "title": "Cono Oreo",
+                        "price": "3.00"
+                    },{
+                        "title": "Cono KitKat",
+                        "price": "3.00"
+                    },{
+                        "title": "Mandorle e Vainilla",
+                        "price": "3.00"
+                    },{
+                        "title": "Maxibon Nata",
+                        "price": "3.00"
+                    },{
+                        "title": "Maxibon Cookie",
+                        "price": "3.00"
+                    },{
+                        "title": "Maxibon Waffle",
+                        "price": "3.00"
+                    }
+                
+                ]
+                },
+                {"Per i piú piccini!" : [{
+                        "title": "Fantasmicos 5 sapori",
+                        "price": "2.50"
+                    },{
+                        "title": "Smarties con lacasitos",
+                        "price": "3.00"
+                    }]
+                }
+            ]
+        }
+    ]
+}

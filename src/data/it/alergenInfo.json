@@ -1,0 +1,16 @@
+{
+    "gluten": "Cereali che contengono glutine (grano, orzo, avena, segale, farro, kamut, inclusa la loro varietà e prodotti derivati).",
+    "lacteo": "Latte e latticini (compresa la lattosio).",
+    "huevo": "Uova e prodotti a base di uova.",
+    "pescado": "Pesce e prodotti a base di pesce.",
+    "crustaceos": "Crostacei e prodotti a base di crostacei.",
+    "molusco": "Molluschi e prodotti a base di molluschi.",
+    "soja": "Soia e prodotti a base di soia.",
+    "cacahuetes": "Arachidi e prodotti a base di arachidi.",
+    "frutosCascara": "Frutta a guscio. (noci, mandorle, nocciole, noci di macadamia, pecan, fagioli e prodotti derivati)",
+    "sesamo": "Semi di sesamo e prodotti a base di semi di sesamo.",
+    "mostaza": "Senape e prodotti derivati.",
+    "apio": "Sedano e prodotti derivati.",
+    "altramuz": "Lupini e prodotti a base di lupini.",
+    "alcohol": "Anidride solforosa e solfiti in concentrazioni superiori a 10 mg/l o kg."
+    }

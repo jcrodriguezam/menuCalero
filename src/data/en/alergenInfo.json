@@ -1,0 +1,16 @@
+{
+    "gluten": "Cereals containing gluten (wheat, barley, oats, rye, spelt, kamut, including their varieties and derived products).",
+    "lacteo": "Milk and dairy products (including lactose).",
+    "huevo": "Eggs and egg-based products.",
+    "pescado": "Fish and fish-based products.",
+    "crustaceos": "Crustaceans and crustacean-based products.",
+    "molusco": "Mollusks and mollusk-based products.",
+    "soja": "Soy and soy-based products.",
+    "cacahuetes": "Peanuts and peanut-based products.",
+    "frutosCascara": "Nuts with shell. (walnuts, almonds, hazelnuts, cashews, pecans, beechnuts, and derived products)",
+    "sesamo": "Sesame seeds and sesame-based products.",
+    "mostaza": "Mustard and mustard-based products.",
+    "apio": "Celery and celery-based products.",
+    "altramuz": "Lupin and lupin-based products.",
+    "alcohol": "Sulfur dioxide and sulfites in concentrations greater than 10 mg/l or kg."
+}

@@ -1,0 +1,26 @@
+{
+    "preInfo": "En cas d'allergie ou d'intolérance alimentaire, veuillez consulter notre serveur.",
+    "alergenInfoTitle": "Informations sur les allergènes des produits",
+    "alergenInfo": "Informations sur les allergènes",
+    "euroLaw": "Règlement européen 1169/11",
+    "iconsUsed": "Icônes utilisées",
+    "infoTitle": "Quels allergènes dois-je déclarer ou fournir des informations à leur sujet ?",
+    "info": "Bien qu'il existe de nombreux allergènes potentiels dans les aliments, il est OBLIGATOIRE DE DÉCLARER uniquement ceux qui contiennent l'un des 14 éléments suivants :",
+    "endingLine": "Tous nos plats peuvent contenir des traces d'allergènes déclarés dans le nouveau règlement de l'UE 1169/2011. Si vous avez des intolérances ou des allergies, veuillez consulter notre personnel pour un meilleur service.",
+    "names": {
+        "gluten": "Céréales contenant du gluten",
+        "lacteo": "Produits laitiers",
+        "huevo": "Œufs",
+        "pescado": "Poisson",
+        "crustaceos": "Crustacés",
+        "molusco": "Mollusques",
+        "soja": "Soja",
+        "cacahuetes": "Arachides",
+        "frutosCascara": "Fruits à coque",
+        "sesamo": "Sésame",
+        "mostaza": "Moutarde",
+        "apio": "Céleri",
+        "altramuz": "Lupin",
+        "alcohol": "Sulfites"
+        }
+    }

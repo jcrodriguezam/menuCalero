@@ -1,0 +1,26 @@
+{
+    "preInfo": "In caso di allergie o intolleranze alimentari, si prega di consultare il nostro cameriere.",
+    "alergenInfoTitle": "Informazioni sugli allergeni dei prodotti",
+    "alergenInfo": "Informazioni sugli allergeni",
+    "euroLaw": "Regolamento Europeo 1169/11",
+    "iconsUsed": "Icone utilizzate",
+    "infoTitle": "Quali allergeni devo dichiarare o su quali devo fornire informazioni?",
+    "info": "Sebbene ci siano numerosi potenziali allergeni negli alimenti, è OBBLIGATORIO DICHARARE solo quelli che contengono uno dei seguenti 14 elementi:",
+    "endingLine": "Tutti i nostri piatti possono contenere tracce di allergeni dichiarati nel nuovo Regolamento UE 1169/2011. Se hai intolleranze o allergie, consulta il nostro personale per un migliore servizio.",
+    "name": {
+        "gluten": "Cereali contenenti glutine",
+        "lacteo": "Latticini",
+        "huevo": "Uova",
+        "pescado": "Pesce",
+        "crustaceos": "Crostacei",
+        "molusco": "Molluschi",
+        "soja": "Soia",
+        "cacahuetes": "Arachidi",
+        "frutosCascara": "Frutta a guscio",
+        "sesamo": "Sesamo",
+        "mostaza": "Senape",
+        "apio": " Sedano",
+        "altramuz": "Lupini",
+        "alcohol": "Solfiti"
+        }
+    }

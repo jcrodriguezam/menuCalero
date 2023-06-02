@@ -1,0 +1,16 @@
+{
+    "gluten": "Cereales que puedan contener gluten (trigo, cebada, avena, centeno, espelta, kamut, incluidas sus variedades y productos derivados).",
+    "lacteo": "Leche y derivados (incluida la lactosa).",
+    "huevo": "Huevos y productos derivados a base de huevo.",
+    "pescado": "Pescados y productos elaborados a base de pescado.",
+    "crustaceos": "Crustáceos y productos a base de crustáceos.",
+    "molusco": "Moluscos y productos a base de moluscos.",
+    "soja": "Soja y productos a base de soja.",
+    "cacahuetes": "Cacahuetes y productos a base de cacahuetes.",
+    "frutosCascara": "Frutos secos con cáscara. (nueces, almendras, avellanas, anacardos, pacanas, alfóncigos y productos derivados)",
+    "sesamo": "Granos de sésamo y productos a base de granos de sésamo.",
+    "mostaza": "Mostaza y productos derivados.",
+    "apio": "Apio y productos derivados.",
+    "altramuz": "Altramuces y productos a base de altramuces.",
+    "alcohol": "Dióxido de azufre y sulfitos en concentraciones superiores a 10 mg/l o kg."
+}
