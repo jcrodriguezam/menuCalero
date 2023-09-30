@@ -340,8 +340,17 @@
                         "title": "Gâteau whisky",
                         "price": "4.50"
                     },{
-                        "title": "Gateau Carolina",
+                        "title": "Gâteau Carolina",
                         "price": "3.00"
+                    },{
+                        "title": "Gâteau aux Carottes",
+                        "price": "4.80"
+                    },{
+                        "title": "Gâteau Mort par le Chocolat",
+                        "price": "4.80"
+                    },{
+                        "title": "Gâteau Red Velvet",
+                        "price": "4.80"
                     },{
                         "title": "Gourmandises au chocolat et à la crème ",
                         "def": "4 unidades",

@@ -343,6 +343,15 @@
                         "title": "Carolina cake",
                         "price": "3.00"
                     },{
+                        "title": "Carrot Cake",
+                        "price": "4.80"
+                    },{
+                        "title": "Death by Chocolate Cake",
+                        "price": "4.80"
+                    },{
+                        "title": "Red Velvet Cake",
+                        "price": "4.80"
+                    },{
                         "title": "Chocolate and double cream balls",
                         "def": "4 pieces",
                         "price": "3.20"

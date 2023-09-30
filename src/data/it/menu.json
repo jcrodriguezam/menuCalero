@@ -343,6 +343,15 @@
                         "title": "Torta Carolina",
                         "price": "4.50"
                     },{
+                        "title": "Torta Carrot Cake",
+                        "price": "4.80"
+                    },{
+                        "title": "Torta Morte per Cioccolato",
+                        "price": "4.80"
+                    },{
+                        "title": "Torta Red Velvet",
+                        "price": "4.80"
+                    },{
                         "title": "Palline di cioccolato e panna ",
                         "def": "4 pezzi",
                         "price": "3.20"
