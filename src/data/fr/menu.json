@@ -77,11 +77,11 @@
                 "price": "5.00"
             }, {
                 "title": "Tellines",
-                "alergen": ["poisson", "crustacés"],
+                "alergen": ["pescado", "crustaceos"],
                 "price": "9.00"
             }, {
                 "title": "Fromage à l’huile",
-                "alergen": ["laitier"],
+                "alergen": ["lacteo"],
                 "price": "4.00"
             }, {
                 "title": "Petites saucisses au vin",

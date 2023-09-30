@@ -77,11 +77,11 @@
                 "price": "5.00"
             }, {
                 "title": "Telline",
-                "alergen": ["pesce", "crostacei"],
+                "alergen": ["pescado", "crustaceos"],
                 "price": "9.00"
             }, {
                 "title": "Formaggio in olio",
-                "alergen": ["lattiero"],
+                "alergen": ["lacteo"],
                 "price": "4.00"
             }, {
                 "title": "Salsicce piccole al vino",
