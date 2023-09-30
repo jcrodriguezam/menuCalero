@@ -26,7 +26,7 @@
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Lamelles de poulet frites avec de la moutarde",
                 "alergen": ["gluten"],
@@ -42,7 +42,7 @@
             },{
                 "title": "Puntilla - petits calamars frits",
                 "alergen": ["pescado", "gluten"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Sèche",
                 "alergen": ["pescado"],
@@ -62,19 +62,30 @@
             },{
                 "title": "Queue de porc",
                 "alergen": ["lacteo", "soja"],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Oreille de porc à la plancha",
                 "alergen": ["lacteo"],
                 "price": "6.00"
             },{
                 "title": "Croquettes",
-                "def": "4 unidades",
+                "def": "unidad",
                 "alergen": ["gluten", "pescado"],
-                "price": "4.00"
+                "price": "1.20"
             },{
                 "title": "Lomo de Orza - longe de porc mariné",
                 "price": "5.00"
+            },{
+                "title": "Tellines",
+                "alergen": ["poisson", "crustacés"],
+                "price": "9.00"
+            },{
+                "title": "Fromage à l’huile",
+                "alergen": ["laitier"],
+                "price": "4.00"
+            },{ 
+                "title": "Petites saucisses au vin",
+                "price": "4.00"
             }
             ]
         },
@@ -92,7 +103,7 @@
                     "title": "Côte de boeuf 750gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "19.50"
+                    "price": "20.50"
                 },{
                     "title": "Brochettes de porc",
                     "alergen": ["soja", "lacteo"],
@@ -110,7 +121,7 @@
                         "· 2 côtes d'agneau",
                         "· 3 morceaux de saucisse par personne"
                     ],
-                    "price": "12.50"
+                    "price": "13.00"
                 },{
                     "promo": true,
                     "title": "Spécialité pour quatre personnes ",
@@ -150,7 +161,7 @@
                 "title": "Almussafes",
                 "def": "Sobrasada, fromage et oignons à la plancha",
                 "alergen": ["gluten", "lacteo"],
-                "price": "4.50"
+                "price": "5.00"
             },{
                 "title": "Huertano",
                 "def": "Thon, tomate, laitue, oeuf, asperges et mayonaise",

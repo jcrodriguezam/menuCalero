@@ -25,7 +25,7 @@
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Lágrimas de pollo con mostaza",
                 "alergen": ["gluten"],
@@ -41,7 +41,7 @@
             },{
                 "title": "Puntilla",
                 "alergen": ["pescado", "gluten"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Sepia",
                 "alergen": ["pescado"],
@@ -61,19 +61,30 @@
             },{
                 "title": "Rabo de cerdo",
                 "alergen": ["lacteo", "soja"],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Oreja a la plancha",
                 "alergen": ["lacteo"],
                 "price": "6.00"
             },{
                 "title": "Croquetas",
-                "def": "4 unidades",
+                "def": "unidad",
                 "alergen": ["gluten", "pescado"],
-                "price": "4.00"
+                "price": "1.20"
             },{
                 "title": "Lomo de Orza",
                 "price": "5.00"
+            },{
+                "title": "Tellinas",
+                "alergen": ["pescado", "crustaceos"],
+                "price": "9.00"
+            },{
+                "title": "Queso en aceite",
+                "alergen": ["lacteo"],
+                "price": "4.00"
+            },{
+                "title": "Choricitos al vino",
+                "price": "4.00"
             }
             ]
         },
@@ -91,7 +102,7 @@
                     "title": "Chuletón de buey 750gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "19.50"
+                    "price": "20.50"
                 },{
                     "title": "Pinchos morunos",
                     "alergen": ["soja", "lacteo"],
@@ -109,7 +120,7 @@
                         "· 2 Chuletas de cordero",
                         "· 3 Piezas de embutido por persona"
                     ],
-                    "price": "12.50"
+                    "price": "13.00"
                 },{
                     "promo": true,
                     "title": "Especial para cuatro personas",
@@ -146,7 +157,7 @@
             },{
                 "title": "Almussafes",
                 "alergen": ["gluten", "lacteo"],
-                "price": "4.50"
+                "price": "5.00"
             },{
                 "title": "Huertano",
                 "def": "Atún, tomate, lechuga, huevo, espárragos y mahonesa",
