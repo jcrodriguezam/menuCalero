@@ -75,15 +75,15 @@
             },{
                 "title": "Lomo de Orza - longe de porc mariné",
                 "price": "5.00"
-            },{
+            }, {
                 "title": "Tellines",
                 "alergen": ["poisson", "crustacés"],
                 "price": "9.00"
-            },{
+            }, {
                 "title": "Fromage à l’huile",
                 "alergen": ["laitier"],
                 "price": "4.00"
-            },{ 
+            }, {
                 "title": "Petites saucisses au vin",
                 "price": "4.00"
             }

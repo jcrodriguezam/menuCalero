@@ -26,7 +26,7 @@
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
-                "price": "5.50"
+                "price": "5.00"
             },{
                 "title": "Fried chicken with mustard",
                 "alergen": ["gluten"],
@@ -42,13 +42,13 @@
             },{
                 "title": "Fried cuttlefish",
                 "alergen": ["pescado", "gluten"],
-                "price": "7.00"
+                "price": "6.50"
             },{
                 "title": "Seppia",
                 "alergen": ["pescado"],
                 "price": "7.50"
             },{
-                "title": "Octopus “gallega“ style",
+                "title": "Octopus “gallega” style",
                 "alergen": ["pescado"],
                 "price": "8.00"
             },{
@@ -62,29 +62,29 @@
             },{
                 "title": "Pig tail",
                 "alergen": ["lacteo", "soja"],
-                "price": "6.00"
+                "price": "5.50"
             },{
                 "title": "Grilled pig ears",
                 "alergen": ["lacteo"],
                 "price": "6.00"
             },{
                 "title": "Crocchette",
-                "def": "unidad",
+                "def": "4 unidades",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.20"
+                "price": "4.00"
             },{
                 "title": "Pork tenderloin “Orza” style",
                 "price": "5.00"
-            },{ 
-                "title": "Tellinas",
-                "alergen": ["fish", "shellfish"],
-                "price": "9.00" 
-            },{ 
-                "title": "Cheese in oil",
-                "alergen": ["dairy"],
-                "price": "4.00"
+            }, {
+                "title": "Clams",
+                "alergen": ["pescado", "crustaceos"],
+                "price": "9.00"
             },{
-                "title": "Small sausages in wine",
+                "title": "Cheese in oil",
+                "alergen": ["lacteo"],
+                "price": "4.00"
+            },{ 
+                "title": "Little sausages in wine",
                 "price": "4.00"
             }
             ]
@@ -103,14 +103,14 @@
                     "title": "Beef steak 750 gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "20.50"
+                    "price": "19.50"
                 },{
-                    "title": "Skewers "moruno" style",
+                    "title": "Skewers “moruno” style",
                     "alergen": ["soja", "lacteo"],
                     "def": "one piece",
                     "price": "2.50"
                 },{
-                    "title": ""bonillera" salad",
+                    "title": "“bonillera” salad",
                     "def": "Cured meat and chopped bacon",
                     "alergen": [],
                     "price": "7.50"
@@ -121,7 +121,7 @@
                         "· 2 Lamb ribs",
                         "· 3 pieces of sausages per person"
                     ],
-                    "price": "13.00"
+                    "price": "12.50"
                 },{
                     "promo": true,
                     "title": "Special for 4 person",
@@ -130,13 +130,13 @@
                         "· Beef steak ",
                         "· Veal entrecot",
                         "· 8 Lamb ribs",
-                        "· 4 Skewers "moruno" style"
+                        "· 4 Skewers “moruno” style"
                     ],
                     "price": "64.00"
                 },{
-                    "extra": "All meats are served with homemade fried potatoes "pobre" style and peppers"
+                    "extra": "All meats are served with homemade fried potatoes “pobre” style and peppers"
                 },{
-                    "extra": "All the sauces (Roquefort, peperoni and "ajillo") if served costs 1,50 € per dish.",
+                    "extra": "All the sauces (Roquefort, peperoni and “ajillo”) if served costs 1,50 € per dish.",
                     "alergen": ["lacteo"]
                 }
             ]
@@ -154,14 +154,14 @@
                 "price": "6.00"
             },{
                 "title": "Manchego",
-                "def": "Albacete sausage, potatoes and "alioli" ",
+                "def": "Albacete sausage, potatoes and “alioli” ",
                 "alergen": ["gluten", "huevo"],
                 "price": "6.00"
             },{
                 "title": "Almussafes",
 			    "def": "Sobrasada, cheese and grilled onion ",
                 "alergen": ["gluten", "lacteo"],
-                "price": "5.00"
+                "price": "4.50"
             },{
                 "title": "Huertano",
                 "def": "Tuna fish, sliced tomatoes, lattuce, egg, asparagus and mayo",
@@ -320,7 +320,7 @@
             ]
         },
         {
-            "The "Jefa" (female boss) Desserts": [
+            "The “Jefa” (female boss) Desserts": [
                 {"Homemade" : [{
                         "title": "Egg or cafe cream",
                         "price": "3.00"

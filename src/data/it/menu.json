@@ -26,7 +26,7 @@
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
-                "price": "5.50"
+                "price": "5.00"
             },{
                 "title": "Lacrime di pollo fritto con senape",
                 "alergen": ["gluten"],
@@ -42,13 +42,13 @@
             },{
                 "title": "Seppioline fritte",
                 "alergen": ["pescado", "gluten"],
-                "price": "7.00"
+                "price": "6.50"
             },{
                 "title": "Seppia",
                 "alergen": ["pescado"],
                 "price": "7.50"
             },{
-                "title": "Polipo alla “gallega“",
+                "title": "Polipo alla “gallega",
                 "alergen": ["pescado"],
                 "price": "8.00"
             },{
@@ -62,28 +62,28 @@
             },{
                 "title": "Coda di maiale",
                 "alergen": ["lacteo", "soja"],
-                "price": "6.00"
+                "price": "5.50"
             },{
                 "title": "Orecchie di maiale grigliate",
                 "alergen": ["lacteo"],
                 "price": "6.00"
             },{
                 "title": "Crocchette",
-                "def": "pezzi",
+                "def": "4 pezzi",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.20"
+                "price": "4.00"
             },{
                 "title": "Filetto di maiale alla “Orza” ",
                 "price": "5.00"
-            },{
+            }, {
                 "title": "Telline",
                 "alergen": ["pesce", "crostacei"],
                 "price": "9.00"
-            },{ 
+            }, {
                 "title": "Formaggio in olio",
                 "alergen": ["lattiero"],
                 "price": "4.00"
-            },{ 
+            }, {
                 "title": "Salsicce piccole al vino",
                 "price": "4.00"
             } 
@@ -103,14 +103,14 @@
                     "title": "Bistecca di bue 750 gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "20.50"
+                    "price": "19.50"
                 },{
-                    "title": "Spiedini di "moruno"",
+                    "title": "Spiedini di “moruno”",
                     "alergen": ["soja", "lacteo"],
                     "def": "al pezzo",
                     "price": "2.50"
                 },{
-                    "title": "Insalata "bonillera"",
+                    "title": "Insalata “bonillera”",
                     "def": "Salumi e pancetta a cubetti",
                     "alergen": [],
                     "price": "7.50"
@@ -121,7 +121,7 @@
                         "· 2 Costolette di agnello",
                         "· 3 pezzi di salsiccia a persona"
                     ],
-                    "price": "13.00"
+                    "price": "12.50"
                 },{
                     "promo": true,
                     "title": "Speciale per quattro persone",
@@ -130,13 +130,13 @@
                         "· Bistecca di bue",
                         "· Entrecot di vitello",
                         "· 8 Costolette di agnello",
-                        "· 4 Spiedini di "moruno""
+                        "· 4 Spiedini di “moruno”"
                     ],
                     "price": "64.00"
                 },{
-                    "extra": "Tutta la carne viene servita con patate "a lo pobre" e peperoni"
+                    "extra": "Tutta la carne viene servita con patate “a lo pobre” e peperoni"
                 },{
-                    "extra": "Le salse (Roquefort, peperoni e al "ajillo") se aggiunte hanno un costo di 1,50 € per piatto.",
+                    "extra": "Le salse (Roquefort, peperoni e al “ajillo”) se aggiunte hanno un costo di 1,50 € per piatto.",
                     "alergen": ["lacteo"]
                 }
             ]
@@ -154,14 +154,14 @@
                 "price": "6.00"
             },{
                 "title": "Manchego",
-                "def": "Salsiccia di Albacete, patate e "alioli"",
+                "def": "Salsiccia di Albacete, patate e “alioli”",
                 "alergen": ["gluten", "huevo"],
                 "price": "6.00"
             },{
                 "title": "Almussafes",
-                "def": ""Sobrasada", formaggio e cipolla grigliata",
+                "def": "“Sobrasada”, formaggio e cipolla grigliata",
                 "alergen": ["gluten", "lacteo"],
-                "price": "5.00"
+                "price": "4.50"
             },{
                 "title": "Huertano",
                 "def": "Tonno, pomodoro, lattuga, uovo, asparagi e maionese",
@@ -320,7 +320,7 @@
             ]
         },
         {
-            "I dolci della "Jefa" (Capa)": [
+            "I dolci della “Jefa” (Capa)": [
                 {"Fatto in casa" : [{
                         "title": "Crema all’ uovo o caffé",
                         "price": "3.00"
