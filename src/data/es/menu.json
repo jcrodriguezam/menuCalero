@@ -1,7 +1,8 @@
 {
     "menu": [
         {
-            "Entrantes": [{
+            "Entrantes": [
+            {
                 "title": "Tabla Jamón y Queso",
                 "def": "Por persona",
                 "alergen": ["lacteo"],
@@ -9,7 +10,7 @@
             },{
                 "title": "Tabla de quesos",
                 "alergen": ["lacteo"],
-                "price": "7.50"
+                "price": "8.00"
             },{
                 "title": "Boquerones en vinagre",
                 "alergen": ["pescado"],
@@ -20,8 +21,9 @@
                 "price": "5.00"
             },{
                 "title": "Esgarraet",
+                "def": "",
                 "alergen": ["pescado"],
-                "price": "5.50"
+                "price": "6.50"
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
@@ -33,23 +35,23 @@
             },{
                 "title": "Queso frito con mermelada de arándanos",
                 "alergen": ["lacteo", "gluten"],
-                "price": "6.00"
+                "price": "7.00"
             },{
                 "title": "Calamares",
                 "alergen": ["pescado", "gluten"],
-                "price": "7.00"
+                "price": "7.50"
             },{
                 "title": "Puntilla",
                 "alergen": ["pescado", "gluten"],
-                "price": "7.00"
-            },{
-                "title": "Sepia",
-                "alergen": ["pescado"],
                 "price": "7.50"
+            },{
+                "title": "Sepionet",
+                "alergen": ["pescado"],
+                "price": "8.50"
             },{
                 "title": "Pulpo a la gallega",
                 "alergen": ["pescado"],
-                "price": "8.00"
+                "price": "9.00"
             },{
                 "title": "Clóchinas",
                 "alergen": ["pescado", "molusco"],
@@ -61,7 +63,7 @@
             },{
                 "title": "Rabo de cerdo",
                 "alergen": ["lacteo", "soja"],
-                "price": "6.00"
+                "price": "7.00"
             },{
                 "title": "Oreja a la plancha",
                 "alergen": ["lacteo"],
@@ -70,7 +72,12 @@
                 "title": "Croquetas",
                 "def": "unidad",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.20"
+                "price": "1.50"
+            },{
+                "title": "Croquetas caseras",
+                "def": "unidad",
+                "alergen": ["gluten", "pescado"],
+                "price": "1.80"
             },{
                 "title": "Lomo de Orza",
                 "price": "5.00"
@@ -81,10 +88,10 @@
             },{
                 "title": "Queso en aceite",
                 "alergen": ["lacteo"],
-                "price": "4.00"
+                "price": "5.00"
             },{
                 "title": "Choricitos al vino",
-                "price": "4.00"
+                "price": "4.50"
             }
             ]
         },
@@ -92,27 +99,27 @@
             "Para los carnivoros": [{
                     "title": "Chuletas de cordero",
                     "alergen": [],
-                    "price": "13.50"
+                    "price": "14.50"
                 },{
                     "title": "Entrecot de ternera",
                     "alergen": [],
                     "image": "entrecotTernera.jpg",
-                    "price": "14.50"
+                    "price": "15.50"
                 },{
                     "title": "Chuletón de buey 750gr",
                     "image": "chuletonBuey.jpg",
                     "alergen": [],
-                    "price": "20.50"
+                    "price": "22.00"
                 },{
                     "title": "Pinchos morunos",
                     "alergen": ["soja", "lacteo"],
                     "def": "Unidad",
-                    "price": "2.50"
+                    "price": "3.00"
                 },{
                     "title": "Ensalada Bonillera",
                     "def": "Embutido y panceta trinchada",
                     "alergen": [],
-                    "price": "7.50"
+                    "price": "8.00"
                 },{
                     "title": "Fuente Barbacoa Calero",
                     "alergen": [],
@@ -120,7 +127,7 @@
                         "· 2 Chuletas de cordero",
                         "· 3 Piezas de embutido por persona"
                     ],
-                    "price": "13.00"
+                    "price": "14.00"
                 },{
                     "promo": true,
                     "title": "Especial para cuatro personas",
@@ -131,7 +138,7 @@
                         "· 8 Chuletas de cordero",
                         "· 4 Pinchos"
                     ],
-                    "price": "64.00"
+                    "price": "68.00"
                 },{
                     "extra": "Todas las carnes se sirven con patatas a lo pobre y pimientos"
                 },{
@@ -144,11 +151,11 @@
             "bocadillos": [{
                 "title": "Chivito",
                 "alergen": ["gluten", "huevo", "lacteo", "soja"],
-                "price": "6.00"
+                "price": "6.50"
             },{
                 "title": "Brascada",
                 "alergen": ["gluten"],
-                "price": "6.00"
+                "price": "6.50"
             },{
                 "title": "Manchego",
                 "def": "Güeñas, patatas y alioli",
@@ -167,12 +174,12 @@
                 "title": "Mir",
                 "def": "Pechuga, tomate, queso y mahonesa",
                 "alergen": [],
-                "price": "5.50"
+                "price": "6.00"
             },{
                 "title": "Trinche Carlovich",
                 "def": "Pechuga, patatas, queso de cabra y cebolla caramelizada",
                 "alergen": [],
-                "price": "6.00"
+                "price": "6.50"
             }
             ]
         },
@@ -211,15 +218,15 @@
             "pescados": [{
                     "title": "Emperador",
                     "alergen": ["pescado"],
-                    "price": "9.50"
+                    "price": "10.50"
                 },{
                     "title": "Sepionet",
                     "alergen": ["pescado"],
-                    "price": "9.50"
+                    "price": "10.50"
                 },{
                     "title": "Parrillada marisco",
                     "def": "2 personas",
-                    "price": "29.00",
+                    "price": "32.00",
                     "alergen": ["pescado", "molusco", "crustaceos"],
                     "items": [
                         "· Sepionet",
