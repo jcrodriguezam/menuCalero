@@ -70,7 +70,7 @@
                 "price": "6.00"
             },{
                 "title": "Crocchette",
-                "def": "unit",
+                "def": "one piece",
                 "alergen": ["gluten", "pescado"],
                 "price": "1.50"
             },{
