@@ -14,11 +14,11 @@
             },{
                 "title": "Anchois marinés au vinaigre ",
                 "alergen": ["pescado"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Salade russe ",
                 "alergen": ["lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Esgarraet",
                 "def": "Salade de poivrons grillés et morues séchées",
@@ -31,7 +31,7 @@
             },{
                 "title": "Lamelles de poulet frites avec de la moutarde",
                 "alergen": ["gluten"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Fromage frit avec confiture de myrtilles",
                 "alergen": ["lacteo", "gluten"],
@@ -51,15 +51,15 @@
             },{
                 "title": "Poulpe à la galicienne",
                 "alergen": ["pescado"],
-                "price": "9.00"
+                "price": "9.50"
             },{
                 "title": "Moules",
                 "alergen": ["pescado", "molusco"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Crevettes à l’ail",
                 "alergen": ["pescado", "crustaceos"],
-                "price": "7.00"
+                "price": "7.50"
             },{
                 "title": "Queue de porc",
                 "alergen": ["lacteo", "soja"],
@@ -77,10 +77,10 @@
                 "title": "Croquette maison",
                 "def": "unidad",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.80"
+                "price": "2.00"
             },{
                 "title": "Lomo de Orza - longe de porc mariné",
-                "price": "5.00"
+                "price": "5.50"
             }, {
                 "title": "Tellines",
                 "alergen": ["pescado", "crustaceos"],
@@ -91,7 +91,7 @@
                 "price": "5.00"
             }, {
                 "title": "Petites saucisses au vin",
-                "price": "4.50"
+                "price": "5.00"
             }
             ]
         },
@@ -119,7 +119,7 @@
                     "title": "Ensalada Bonillera",
                     "def": "Saucisse et poitrine de porc en tranches",
                     "alergen": [],
-                    "price": "8.00"
+                    "price": "9.00"
                 },{
                     "title": "Plateau Barbecue Calero",
                     "alergen": [],
@@ -167,7 +167,7 @@
                 "title": "Almussafes",
                 "def": "Sobrasada, fromage et oignons à la plancha",
                 "alergen": ["gluten", "lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Huertano",
                 "def": "Thon, tomate, laitue, oeuf, asperges et mayonaise",
@@ -221,11 +221,15 @@
             "Poisson": [{
                     "title": "Espadon",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.00"
                 },{
                     "title": "Petites seiches",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.000"
+                },{
+                    "title": "calmar",
+                    "alergen": ["pescado"],
+                    "price": "11.000"
                 },{
                     "title": "Assiette marine",
                     "def": "2 personas",

@@ -14,11 +14,11 @@
             },{
                 "title": "Boquerones en vinagre",
                 "alergen": ["pescado"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Ensaladilla rusa",
                 "alergen": ["lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Esgarraet",
                 "def": "",
@@ -31,7 +31,7 @@
             },{
                 "title": "Lágrimas de pollo con mostaza",
                 "alergen": ["gluten"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Queso frito con mermelada de arándanos",
                 "alergen": ["lacteo", "gluten"],
@@ -51,15 +51,15 @@
             },{
                 "title": "Pulpo a la gallega",
                 "alergen": ["pescado"],
-                "price": "9.00"
+                "price": "9.50"
             },{
                 "title": "Clóchinas",
                 "alergen": ["pescado", "molusco"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Gambas al ajillo",
                 "alergen": ["pescado", "crustaceos"],
-                "price": "7.00"
+                "price": "7.50"
             },{
                 "title": "Rabo de cerdo",
                 "alergen": ["lacteo", "soja"],
@@ -77,10 +77,10 @@
                 "title": "Croquetas caseras",
                 "def": "unidad",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.80"
+                "price": "2.00"
             },{
                 "title": "Lomo de Orza",
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Tellinas",
                 "alergen": ["pescado", "crustaceos"],
@@ -91,7 +91,7 @@
                 "price": "5.00"
             },{
                 "title": "Choricitos al vino",
-                "price": "4.50"
+                "price": "5.00"
             }
             ]
         },
@@ -119,7 +119,7 @@
                     "title": "Ensalada Bonillera",
                     "def": "Embutido y panceta trinchada",
                     "alergen": [],
-                    "price": "8.00"
+                    "price": "9.00"
                 },{
                     "title": "Fuente Barbacoa Calero",
                     "alergen": [],
@@ -164,7 +164,7 @@
             },{
                 "title": "Almussafes",
                 "alergen": ["gluten", "lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Huertano",
                 "def": "Atún, tomate, lechuga, huevo, espárragos y mahonesa",
@@ -218,11 +218,15 @@
             "pescados": [{
                     "title": "Emperador",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.00"
                 },{
                     "title": "Sepionet",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.00"
+                },{
+                    "title": "Calamar",
+                    "alergen": ["pescado"],
+                    "price": "11.00"
                 },{
                     "title": "Parrillada marisco",
                     "def": "2 personas",

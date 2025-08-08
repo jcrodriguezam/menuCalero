@@ -14,11 +14,11 @@
             },{
                 "title": "Pickled anchovies",
                 "alergen": ["pescado"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Insalata russa",
                 "alergen": ["lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Esgarraet",
                 "def": "red pepper with cod",
@@ -27,11 +27,11 @@
             },{
                 "title": "Patatas bravas",
                 "alergen": ["huevo", "soja"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Fried chicken with mustard",
                 "alergen": ["gluten"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Fried cheese with blueberry jam",
                 "alergen": ["lacteo", "gluten"],
@@ -51,15 +51,15 @@
             },{
                 "title": "Octopus “gallega” style",
                 "alergen": ["pescado"],
-                "price": "9.00"
+                "price": "9.50"
             },{
                 "title": "Valencian clams",
                 "alergen": ["pescado", "molusco"],
-                "price": "6.50"
+                "price": "7.00"
             },{
                 "title": "Garlic shrimps",
                 "alergen": ["pescado", "crustaceos"],
-                "price": "7.00"
+                "price": "7.50"
             },{
                 "title": "Pig tail",
                 "alergen": ["lacteo", "soja"],
@@ -77,10 +77,10 @@
                 "title": "Homemade crocchette",
                 "def": "one piece",
                 "alergen": ["gluten", "pescado"],
-                "price": "1.80"
+                "price": "2.00"
             },{
                 "title": "Pork tenderloin “Orza” style",
-                "price": "5.00"
+                "price": "5.50"
             }, {
                 "title": "Clams",
                 "alergen": ["pescado", "crustaceos"],
@@ -91,7 +91,7 @@
                 "price": "5.00"
             },{ 
                 "title": "Little sausages in wine",
-                "price": "4.50"
+                "price": "5.00"
             }
             ]
         },
@@ -119,7 +119,7 @@
                     "title": "“bonillera” salad",
                     "def": "Cured meat and chopped bacon",
                     "alergen": [],
-                    "price": "8.00"
+                    "price": "9.00"
                 },{
                     "title": "Barbecue Calero",
                     "alergen": [],
@@ -167,7 +167,7 @@
                 "title": "Almussafes",
 			    "def": "Sobrasada, cheese and grilled onion ",
                 "alergen": ["gluten", "lacteo"],
-                "price": "5.00"
+                "price": "5.50"
             },{
                 "title": "Huertano",
                 "def": "Tuna fish, sliced tomatoes, lattuce, egg, asparagus and mayo",
@@ -221,11 +221,15 @@
             "Fish": [{
                     "title": "Sword fish",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.00"
                 },{
                     "title": "Valencian cuttlefish",
                     "alergen": ["pescado"],
-                    "price": "10.50"
+                    "price": "11.00"
+                },{
+                    "title": "squid",
+                    "alergen": ["pescado"],
+                    "price": "11.00"
                 },{
                     "title": "Grilled seafood",
                     "def": "2 person",
